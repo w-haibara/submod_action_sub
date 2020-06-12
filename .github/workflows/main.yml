@@ -6,7 +6,7 @@ jobs:
     name: Greeting
     runs-on: ubuntu-latest
     steps:
-      - name:
+      - name: Dispatch
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - run: |
